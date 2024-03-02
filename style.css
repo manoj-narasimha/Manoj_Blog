@@ -408,6 +408,7 @@ footer {
     height: 100px;
     width: 100dvw;
     scroll-behavior: smooth;
+    margin-bottom: 20px;
   }
 
   header .logo h1 {
