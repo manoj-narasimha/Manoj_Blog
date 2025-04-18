@@ -14,9 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .getAttribute("theme");
 
     const theme = document.getElementsByTagName("html")[0];
-    console.log(theme)
-
-  console.log(get_theme);
+    
 
   light_theme.addEventListener("click", (e) => {
     e.preventDefault();
