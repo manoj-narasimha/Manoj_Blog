@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://manojnarasimha.com/sitemap.xml
+
+# Block crawling of sensitive areas (if any)
+Disallow: /private/
+Disallow: /admin/
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay (optional)
+Crawl-delay: 1
