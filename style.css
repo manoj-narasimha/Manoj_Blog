@@ -248,13 +248,14 @@ a:focus {
   margin-bottom: 0.5rem;
   text-align: left;
   font-size: 18px;
-  color: #fefeff;
+  color: var(--clr-text);
 }
 
 .contact-item p {
   font-size: 14px;
   color: var(--clr-text-light);
   color: crimson;
+  padding: 0;
 }
 
 .contact-cta {
